@@ -1,0 +1,493 @@
+<!-- howdy/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>BoiBye.edu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 50%}
+h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC"}
+body {font-family: "sans-serif"}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://m.popkey.co/0a0d8e/YR013.gif");
+    min-height: 90%;
+}
+
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody1").hide();
+    $("#articleTitle1").click(function(){
+    if ($("#articleBody1").is(":visible")){
+          $("#articleBody1").hide();
+    }
+    else if ($("#articleBody1").is(":hidden")) {
+      $("#articleBody1").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody2").hide();
+    $("#articleTitle2").click(function(){
+    if ($("#articleBody2").is(":visible")){
+          $("#articleBody2").hide();
+    }
+    else if ($("#articleBody2").is(":hidden")) {
+      $("#articleBody2").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody3").hide();
+    $("#articleTitle3").click(function(){
+    if ($("#articleBody3").is(":visible")){
+          $("#articleBody3").hide();
+    }
+    else if ($("#articleBody3").is(":hidden")) {
+      $("#articleBody3").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody4").hide();
+    $("#articleTitle4").click(function(){
+    if ($("#articleBody4").is(":visible")){
+          $("#articleBody4").hide();
+    }
+    else if ($("#articleBody4").is(":hidden")) {
+      $("#articleBody4").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody5").hide();
+    $("#articleTitle5").click(function(){
+    if ($("#articleBody5").is(":visible")){
+          $("#articleBody5").hide();
+    }
+    else if ($("#articleBody5").is(":hidden")) {
+      $("#articleBody5").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody6").hide();
+    $("#articleTitle6").click(function(){
+    if ($("#articleBody6").is(":visible")){
+          $("#articleBody6").hide();
+    }
+    else if ($("#articleBody6").is(":hidden")) {
+      $("#articleBody6").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody7").hide();
+    $("#articleTitle7").click(function(){
+    if ($("#articleBody7").is(":visible")){
+          $("#articleBody7").hide();
+    }
+    else if ($("#articleBody7").is(":hidden")) {
+      $("#articleBody7").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody8").hide();
+    $("#articleTitle8").click(function(){
+    if ($("#articleBody8").is(":visible")){
+          $("#articleBody8").hide();
+    }
+    else if ($("#articleBody8").is(":hidden")) {
+      $("#articleBody8").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody9").hide();
+    $("#articleTitle9").click(function(){
+    if ($("#articleBody9").is(":visible")){
+          $("#articleBody9").hide();
+    }
+    else if ($("#articleBody9").is(":hidden")) {
+      $("#articleBody9").show();
+    }
+  });
+});
+</script>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">ARTICLES</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="file:///Users/twitter/Desktop/2017/finalproject.html#googleMap" href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>BOI BYE!<br></b></span>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE ARTICLES</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey clicked">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">FEMINISM</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">ACTIVISM</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">INTERSSCTIONAL</div>
+      </a>
+    </div>
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      {% for article in articles %}
+      {% if article.type_of_article == "Feminism" %}
+      <h1 id="articleTitle7"><b>{{ article.title }}</b> <span class="w3-right w3-tag w3-dark-grey w3-round">{{article.published_date}}</span></h1>
+      <p class="w3-text-grey" id="articleBody7">{{article.text}} What type is it? {{article.type_of_article}}</p></br>
+      </br><hr>
+      {% for comment in comments %}
+      {% if comment.article == article. %}
+        {{ comment.text }}
+      <hr>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+
+    </div>
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      {% for article in articles %}
+      {% if article.type_of_article == "Activism" %}
+      <h1 id="articleTitle7"><b>{{ article.title }}</b> <span class="w3-right w3-tag w3-dark-grey w3-round">{{article.published_date}}</span></h1>
+      <p class="w3-text-grey" id="articleBody7">{{article.text}} What type is it? {{article.type_of_article}}</p></br>
+      </br><hr>
+      {% for comment in comments %}
+      {% if comment.article == article %}
+        {{ comment.text }}
+      <hr>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+
+      <hr>
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      {% for article in articles %}
+      {% if article.type_of_article == "Intersectional" %}
+      <h1 id="articleTitle7"><b>{{ article.title }}</b> <span class="w3-right w3-tag w3-dark-grey w3-round">{{article.published_date}}</span></h1>
+      <p class="w3-text-grey" id="articleBody7">{{article.text}} What type is it? {{article.type_of_article}}</br>
+      </br><hr>
+      {% for comment in comments %}
+      {% if comment.article == article %}
+        {{ comment.text }}
+      <hr>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+    </p>
+      <hr>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-pink w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>Welcome to BOIBYE! This website is for care free women that don't care about social standards. The founders, Fahima, Tai, Huda and Alli wanted the users of this website to feel welcomed and feel like they are apart of a community. We created this website because we saw the lack of blogs that were clean cut and straight forward. With this blog, nothing is sugar coated because the world is salty ✨ </p>
+    <p><strong>Fahima Mohammed:</strong> Content creator</p>
+    <p><strong>Tai Cooper:</strong> Front end designer <p>
+    <p><Strong>Huda Ziyad:</strong> Back end designer </p>
+    <p><strong>Alli Lapchis:</strong> Audio selector </p>
+    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Uploading dates</b></h1>
+
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Monday Blog Posts</p>
+        <p>Friday Advice Column Post</p>
+        <p>Sunday Whats Hot</p>
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Contact (with google maps) -->
+<style>
+* {box-sizing:border-box}
+body {font-family: "Amatic SC", sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 150px) {
+  .text {font-size: 11px}
+
+}
+</style>
+
+<h2>Inspiring Women</h2>
+
+
+<div id="slideshow" class="slideshow-container">
+<center>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="1.jpg" style="width:50%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="2.jpg" style="width:50%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="3.jpg" style="width:50%">
+  <div class="text"></div>
+</div>
+</center>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+    <h1 size="5" class="w3-center w3-jumbo" style="margin-bottom:64px" id="googleMap">Contact Us!</h1>
+    <p><font  size="5">Call us at (206)631-0870 or email us.<font></p>
+    <p><span class="w3-white" class="w3-tag"><font size="5">Give Us The Tea☕️</span> We are looking for advocates to speak their truths and send us their thoughts✨.<font></p>
+
+    <form action="https://formspree.io/boibye2018@gmail.com"
+      method="POST">
+    <font size="10">
+    <input type="text" name="name" placeholder="Name">
+    <input type="email" name="_replyto" placeholder="Email">
+    <input type="text" name="comment" placeholder="Comment">
+    <input type="submit" value="Send">
+    </form>
+
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="file:///Users/twitter/Desktop/2017/finalproject.html" title="boibye.edu" target="_blank" class="w3-hover-text-white">boibye.edu</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(47.606209,-122.332071);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+<div id="cp_widget_b9cf65e2-00bc-4b6c-845d-f3d24f9f0faf">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_b9cf65e2-00bc-4b6c-845d-f3d24f9f0faf"; cpo["_fid"] = "AQMAoCupTnt3";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2017/8/14</span></noscript>
+
+<!--
+
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+<!-- Contact Section -->
+
+
+
+</body>
+</html>
